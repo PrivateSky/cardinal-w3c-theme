@@ -7,8 +7,6 @@ aside {
     overflow: auto;
     color: #FFFFFF;
     background-color: #EEEEEE;
-    /*box-shadow: 0 0 10px #0000002F;*/
-    z-index: 2;
 }
 
 aside app-menu {

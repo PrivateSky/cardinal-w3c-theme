@@ -3,8 +3,6 @@
 }
 
 .page-title {
-    /*display: flex;*/
-    /*align-items: center;*/
     text-align: center;
     padding: 1.5rem 0 0.7rem 0;
     height: 5rem;
@@ -32,11 +30,6 @@
     padding: 1rem;
 }
 
-/*:host(:not([has-toc])) .page-content {*/
-/*    margin: 0 auto;*/
-/*    width: 1000px;*/
-/*}*/
-
 :host([has-toc]) .page-content {
     display: grid;
     grid-template-columns: 1fr 30vw;
@@ -53,51 +46,3 @@
     grid-column-start: 2;
     background-color: #F6F6F6;
 }
-
-/*:host(:not([has-toc])) .main-container{*/
-/*    margin: 0 auto;*/
-/*    !*width:930px;*!*/
-/*}*/
-
-/*::slotted(psk-chapter){*/
-/*    display: flex;*/
-/*    position: relative;*/
-/*    width:100%;*/
-/*}*/
-
-/*@media only screen and (max-width: 1160px) {*/
-/*    :host([has-toc]){*/
-/*        margin-left: 0;*/
-/*    }*/
-
-/*    ::slotted(psk-chapter){*/
-/*        display: block;*/
-/*        position: relative;*/
-/*        width:auto;*/
-/*    }*/
-/*}*/
-
-/*@media only screen and (min-width: 1161px) and (max-width: 1360px) {*/
-/*    :host([has-toc]){*/
-/*        margin-left:29rem;*/
-/*        position:relative;*/
-/*    }*/
-/*}*/
-
-/*.psk-badge{*/
-/*    position: fixed;*/
-/*    width:1.75rem;*/
-/*    top:3.5rem;*/
-/*    left:0;*/
-/*    z-index: 90;*/
-/*    padding-bottom: 6rem;*/
-/*    padding-top: 2rem;*/
-/*}*/
-
-/*.psk-badge-text{*/
-/*    font-size: 1.25rem;*/
-/*    line-height: 1.75rem;*/
-/*    margin-top: 1rem;*/
-/*    writing-mode: vertical-rl;*/
-/*    transform: rotate(180deg);*/
-/*}*/
