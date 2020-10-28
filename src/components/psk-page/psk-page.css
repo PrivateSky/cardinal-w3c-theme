@@ -71,3 +71,28 @@
         grid-row-start: 2;
     }
 }
+
+/* OpenDSU.com iframes */
+
+:host(.full-viewport) .page-content{
+    margin: 0;
+    padding: 0;
+}
+
+:host(.full-viewport) .page-content > .container{
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+}
+
+:host(.full-viewport) .page-content > .container > .container-content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+:host(.full-viewport) ::slotted(iframe.fill-page)  {
+    flex: 1;
+    border: none;
+}
